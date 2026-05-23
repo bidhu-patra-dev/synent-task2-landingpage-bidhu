@@ -53,3 +53,59 @@ button{
   cursor:pointer;
   font-size:1rem;
 }
+
+.features{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:60px 20px;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:white;
+  width:280px;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  text-align:center;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card h2{
+  margin-bottom:15px;
+}
+
+button:hover{
+  background:black;
+  color:white;
+  transition:0.3s;
+}
+
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+@media(max-width:768px){
+
+  nav{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .hero-content h1{
+    font-size:2.5rem;
+  }
+
+  ul{
+    gap:10px;
+  }
+
+}
