@@ -109,3 +109,43 @@ footer{
   }
 
 }
+
+html{
+  scroll-behavior:smooth;
+}
+
+.hero{
+  background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    
+  background-size:cover;
+  background-position:center;
+}
+
+.logo{
+  cursor:pointer;
+}
+
+ul li a{
+  text-decoration:none;
+  color:white;
+  transition:0.3s;
+}
+
+ul li a:hover{
+  color:yellow;
+}
+
+.hero-content{
+  padding:20px;
+}
+
+button{
+  background:white;
+  font-weight:bold;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
